@@ -22,4 +22,11 @@ public class StringToLong {
         long l = Long.parseLong(null);
         System.out.println(l);
     }
+
+    @Test
+    public void test02(){
+
+        long l = Long.valueOf("");
+        System.out.println(l);
+    }
 }
