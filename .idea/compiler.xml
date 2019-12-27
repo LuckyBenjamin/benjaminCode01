@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="CoreJava" />
+        <module name="mybatis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="CoreJava" target="1.5" />
+      <module name="mybatis" target="1.8" />
       <module name="testdemo" target="1.5" />
     </bytecodeTargetLevel>
   </component>
