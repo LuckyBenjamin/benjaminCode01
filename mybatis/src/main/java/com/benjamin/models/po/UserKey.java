@@ -1,5 +1,8 @@
 package com.benjamin.models.po;
 
+import lombok.Data;
+
+@Data
 public class UserKey {
     private Integer id;
 
